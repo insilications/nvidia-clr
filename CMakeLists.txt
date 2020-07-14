@@ -1,5 +1,5 @@
 message(STATUS "cmake version ${CMAKE_VERSION}")
-project (nvidia)
+project(nvidia)
 cmake_minimum_required (VERSION 2.8.8) # OBJECT libraries require 2.8.8
 
 set(NVIDIA_INSTALL_DIR /usr/nvidia CACHE STRING "Nvidia driver install location")
